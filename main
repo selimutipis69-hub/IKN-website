@@ -1,0 +1,1236 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IKNPro - PT IndoPro Karya Nusantara | Mitra Event &amp; BIMTEK Terpercaya</title>
+  <meta name="description" content="Penyelenggara Profesional untuk BIMTEK, Seminar Nasional, Pengadaan B2G, dan Commercial Expo bagi Kementerian, Lembaga, Pemda, BUMN, dan Korporasi." />
+  <meta property="og:title" content="IKNPro - PT IndoPro Karya Nusantara" />
+  <meta property="og:description" content="Penyelenggara Profesional untuk BIMTEK, Seminar Nasional, Pengadaan B2G, dan Commercial Expo." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#14223D" />
+  <link rel="icon" type="image/png" href="assets/Blue_and_Silver_Modern_Tech_Expo_LinkedIn_Post__4__7d617923.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ======================= SVG icon sprite (Lucide-style, inline) ======================= -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true" focusable="false">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-phone-call" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/><path d="M14.05 2a9 9 0 0 1 8 7.94M14.05 6A5 5 0 0 1 18 10"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-filter" viewBox="0 0 24 24"><path d="M22 3H2l8 9.46V19l4 2v-8.54z"/></symbol>
+  <symbol id="i-printer" viewBox="0 0 24 24"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 9V2h12v7"/><rect width="12" height="8" x="6" y="14"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+  <symbol id="i-file-text" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10 9H8M16 13H8M16 17H8"/></symbol>
+  <symbol id="i-file-check" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m9 15 2 2 4-4"/></symbol>
+  <symbol id="i-graduation-cap" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+  <symbol id="i-presentation" viewBox="0 0 24 24"><path d="M2 3h20M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3M12 16v5M8 21h8M7 12l3-3 2 2 4-4"/></symbol>
+  <symbol id="i-store" viewBox="0 0 24 24"><path d="m2 7 2.4-4.4A2 2 0 0 1 6.2 2h11.6a2 2 0 0 1 1.8 1l2.4 4"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20v3a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></symbol>
+  <symbol id="i-calculator" viewBox="0 0 24 24"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8M16 14v4M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></symbol>
+  <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18M7 6h1v4"/><path d="m16.71 13.88.7.71-2.82 2.82"/></symbol>
+  <symbol id="i-qr" viewBox="0 0 24 24"><rect width="5" height="5" x="3" y="3" rx="1"/><rect width="5" height="5" x="16" y="3" rx="1"/><rect width="5" height="5" x="3" y="16" rx="1"/><path d="M21 16h-3a2 2 0 0 0-2 2v3M21 21v.01M12 7v3a2 2 0 0 1-2 2H7M3 12h.01M12 3h.01M12 16v.01M16 12h1M21 12v.01M12 21v-1"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/></symbol>
+  <symbol id="i-radio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M4.93 19.07a10 10 0 0 1 0-14.14M7.76 16.24a6 6 0 0 1 0-8.48M16.24 7.76a6 6 0 0 1 0 8.48M19.07 4.93a10 10 0 0 1 0 14.14"/></symbol>
+  <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2M13 17v2M13 11v2"/></symbol>
+  <symbol id="i-credit-card" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" rx="2"/><path d="M2 10h20"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9zM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></symbol>
+  <symbol id="i-bar-chart" viewBox="0 0 24 24"><path d="M12 20V10M18 20V4M6 20v-4"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path stroke="none" fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+<!-- ======================= HEADER ======================= -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="brand" href="#beranda" aria-label="IKNPro - IndoPro Karya Nusantara, ke Beranda">
+        <img src="assets/Blue_and_Silver_Modern_Tech_Expo_LinkedIn_Post__4__7d617923.png" alt="iKNPro - IndoPro Karya Nusantara" width="176" height="176" />
+      </a>
+
+      <nav class="nav-pill" aria-label="Navigasi utama">
+        <a class="nav-link" href="#beranda" data-route="beranda">Beranda</a>
+        <a class="nav-link" href="#katalog" data-route="katalog">Katalog Event</a>
+        <a class="nav-link" href="#pengadaan" data-route="pengadaan">Pengadaan E-Katalog</a>
+        <a class="nav-link" href="#verifikasi" data-route="verifikasi">Verifikasi Sertifikat</a>
+        <a class="nav-link" href="#portfolio" data-route="portfolio">Portfolio</a>
+        <a class="nav-link" href="#legalitas" data-route="legalitas">Legalitas &amp; Profil</a>
+      </nav>
+
+      <div class="header-cta">
+        <button type="button" class="btn btn-outline" data-open="contact">
+          <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-phone-call"/></svg>
+          Hubungi Kami
+        </button>
+      </div>
+
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Buka menu navigasi">
+        <svg class="icon i-24 icon-open" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg>
+        <svg class="icon i-24 icon-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Navigasi seluler" hidden>
+    <ul>
+      <li><a class="nav-link-m" href="#beranda" data-route="beranda"><span>Beranda</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
+      <li><a class="nav-link-m" href="#katalog" data-route="katalog"><span>Katalog Event</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
+      <li><a class="nav-link-m" href="#pengadaan" data-route="pengadaan"><span>Pengadaan E-Katalog</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
+      <li><a class="nav-link-m" href="#verifikasi" data-route="verifikasi"><span>Verifikasi Sertifikat</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
+      <li><a class="nav-link-m" href="#portfolio" data-route="portfolio"><span>Portfolio</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
+      <li><a class="nav-link-m" href="#legalitas" data-route="legalitas"><span>Legalitas &amp; Profil</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
+    </ul>
+    <div class="mobile-cta">
+      <button type="button" class="btn btn-navy btn-block" data-open="contact">
+        <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-phone-call"/></svg>
+        Hubungi Kami
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <noscript><p style="padding:1rem;text-align:center;background:#fff7ed">Situs ini memerlukan JavaScript untuk navigasi antarhalaman dan fitur interaktif.</p></noscript>
+
+  <!-- ================================================================== -->
+  <!-- PAGE: BERANDA                                                       -->
+  <!-- ================================================================== -->
+  <div class="page" id="page-beranda" data-title="IKNPro - PT IndoPro Karya Nusantara | Mitra Event &amp; BIMTEK Terpercaya">
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- decorative: pale gray backdrop with faint triangle / dot-mesh pattern from the logo -->
+      <div class="hero-deco" aria-hidden="true">
+        <svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <defs>
+            <pattern id="hTri" width="24" height="22" patternUnits="userSpaceOnUse"><path d="M12 3 L20 17 L4 17 Z" fill="#0F172A" fill-opacity=".11"/></pattern>
+            <pattern id="hDot" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.7" fill="#0F172A" fill-opacity=".16"/></pattern>
+            <pattern id="hMesh" width="44" height="38" patternUnits="userSpaceOnUse"><path d="M0 38 L22 0 L44 38 Z M0 38 H44" fill="none" stroke="#0F172A" stroke-opacity=".16" stroke-width="1"/></pattern>
+            <linearGradient id="hFadeD" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+            <mask id="mTri"><rect x="690" y="60" width="240" height="340" fill="url(#hFadeD)"/></mask>
+            <mask id="mMesh"><polygon points="1440,380 1440,760 1090,760" fill="#fff"/></mask>
+          </defs>
+          <rect x="690" y="60" width="240" height="340" fill="url(#hTri)" mask="url(#mTri)"/>
+          <rect x="1330" y="70" width="100" height="100" fill="url(#hDot)"/>
+          <rect x="830" y="500" width="112" height="144" fill="url(#hDot)"/>
+          <rect x="1090" y="380" width="350" height="380" fill="url(#hMesh)" mask="url(#mMesh)"/>
+          <g fill="#0F172A">
+            <polygon points="0,560 220,760 0,760" fill-opacity=".055"/>
+            <polygon points="0,650 130,760 0,760" fill-opacity=".05"/>
+            <polygon points="70,520 170,600 0,640" fill-opacity=".035"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="badge-green">
+              <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>
+              <span>Penyelenggara MICE &amp; Diklat Resmi Terakreditasi B2G &amp; BUMN</span>
+            </div>
+            <h1 id="hero-title">Mitra Event &amp; BIMTEK <span>Terpercaya</span></h1>
+            <p class="lead">Penyelenggara Profesional untuk BIMTEK, Seminar, Pengadaan, dan Expo.</p>
+            <p class="sub">PT IndoPro Karya Nusantara mendampingi instansi Kementerian, Lembaga, Pemerintah Daerah (Pemda), dan BUMN melalui program pelatihan terakreditasi, simposium nasional, pengadaan patuh regulasi sesuai SBM PMK Kemenkeu, serta ekshibisi komersial kelas wahid.</p>
+            <div class="hero-cta">
+              <button type="button" class="btn btn-orange btn-lg" data-open="profile">
+                <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-download"/></svg>
+                <span>Unduh Profil Perusahaan (PDF)</span>
+              </button>
+              <a class="btn btn-outline-navy btn-lg" href="#katalog">
+                <span>Lihat Katalog Event</span>
+                <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg>
+              </a>
+            </div>
+
+            <dl class="stats">
+              <div class="stat-item">
+                <span class="stat-ico" aria-hidden="true"><svg class="icon i-20" focusable="false"><use href="#i-calendar"/></svg></span>
+                <div class="stat-txt"><dt>Event Terselenggara</dt><dd>250+</dd></div>
+              </div>
+              <div class="stat-item">
+                <span class="stat-ico" aria-hidden="true"><svg class="icon i-20" focusable="false"><use href="#i-users"/></svg></span>
+                <div class="stat-txt"><dt>Alumni &amp; Peserta</dt><dd>35.000+</dd></div>
+              </div>
+              <div class="stat-item">
+                <span class="stat-ico" aria-hidden="true"><svg class="icon i-20" focusable="false"><use href="#i-shield-check"/></svg></span>
+                <div class="stat-txt"><dt>Audit Kepatuhan B2G</dt><dd>100%</dd></div>
+              </div>
+            </dl>
+          </div>
+
+          <div class="collage">
+            <div class="collage-stage" aria-hidden="true"></div>
+            <span class="glass glass-rating"><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><span>4.9/5 Kepuasan Instansi</span></span>
+            <figure class="photo-card photo-a">
+              <img src="assets/hero_speaker_1794387352146.jpg" alt="Narasumber keynote presentasi pada acara korporat nasional" width="896" height="1200" fetchpriority="high" />
+              <figcaption>
+                <span class="tag">Simposium Nasional</span>
+                <p class="line-clamp-2">Narasumber Praktisi &amp; Pejabat Kementerian</p>
+              </figcaption>
+            </figure>
+            <figure class="photo-card photo-b">
+              <img src="assets/hero_executives_1794387370135.jpg" alt="Dua eksekutif korporat berpakaian formal" width="896" height="1200" />
+              <figcaption>
+                <span class="tag">Kemitraan Strategis</span>
+                <p class="line-clamp-2">Mitra Terpercaya Instansi Pemerintah &amp; BUMN</p>
+              </figcaption>
+            </figure>
+            <div class="glass glass-iso">
+              <svg class="icon i-16" style="color:#e3a33b" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>
+              <svg class="icon i-16" style="color:#6fc392" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>
+              <span>ISO 9001:2015 &amp; Standar LKPP SIKaP Ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub" id="interactive-hub" aria-labelledby="hub-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Ekosistem Manajemen Acara</span>
+            <h2 class="section-title" id="hub-title">Layanan Kami</h2>
+          </div>
+          <p>Klik pada masing-masing layanan untuk membuka rincian kurikulum, daftar narasumber, simulator anggaran SBM, atau denah interaktif booth.</p>
+        </div>
+
+        <div class="svc-grid">
+          <article class="svc-card">
+            <img src="assets/service_bimtek_1794391776524.jpg" alt="" width="1200" height="896" loading="lazy" />
+            <div class="svc-top">
+              <span class="svc-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-graduation-cap"/></svg></span>
+              <span class="svc-arrow"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"/></svg></span>
+            </div>
+            <div class="svc-bottom">
+              <span class="svc-kicker">01 / Pelatihan Resmi</span>
+              <h3><button type="button" data-open="bimtek" aria-label="BIMTEK - Buka Silabus &amp; Kurikulum JP">BIMTEK</button></h3>
+              <p>Pelatihan teknis &amp; sertifikasi aparatur/korporasi.</p>
+              <div class="svc-foot" aria-hidden="true"><span>Buka Kurikulum &amp; JP</span><span>&rarr;</span></div>
+            </div>
+          </article>
+
+          <article class="svc-card">
+            <img src="assets/service_seminar_1794391777677.jpg" alt="" width="1200" height="896" loading="lazy" />
+            <div class="svc-top">
+              <span class="svc-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-presentation"/></svg></span>
+              <span class="svc-arrow"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"/></svg></span>
+            </div>
+            <div class="svc-bottom">
+              <span class="svc-kicker">02 / Konferensi &amp; Simposium</span>
+              <h3><button type="button" data-open="seminar" aria-label="Seminar - Buka Roster Narasumber &amp; Spesifikasi Hybrid">Seminar</button></h3>
+              <p>Seminar nasional, simposium &amp; konferensi skala besar.</p>
+              <div class="svc-foot" aria-hidden="true"><span>Buka Roster &amp; Streaming</span><span>&rarr;</span></div>
+            </div>
+          </article>
+
+          <article class="svc-card">
+            <img src="assets/service_procurement_1794391780574.jpg" alt="" width="1200" height="896" loading="lazy" />
+            <div class="svc-top">
+              <span class="svc-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-file-check"/></svg></span>
+              <span class="svc-arrow"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"/></svg></span>
+            </div>
+            <div class="svc-bottom">
+              <span class="svc-kicker">03 / Regulasi &amp; Tender B2G</span>
+              <h3><button type="button" data-open="sbm" aria-label="Pengadaan - Buka Estimator SBM PMK">Pengadaan</button></h3>
+              <p>Pendampingan pengadaan &amp; kepatuhan regulasi B2G.</p>
+              <div class="svc-foot" aria-hidden="true"><span>Buka Estimator SBM PMK</span><span>&rarr;</span></div>
+            </div>
+          </article>
+
+          <article class="svc-card" id="expo-service-card">
+            <img src="assets/service_expo_1794391780357.jpg" alt="" width="1200" height="896" loading="lazy" />
+            <div class="svc-top">
+              <span class="svc-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-store"/></svg></span>
+              <span class="svc-arrow"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"/></svg></span>
+            </div>
+            <div class="svc-bottom">
+              <span class="svc-kicker">04 / Pameran &amp; Konstruksi</span>
+              <h3><button type="button" data-open="booth" aria-label="Expo - Buka Interactive Map Expo &amp; Reservasi Booth">Expo</button></h3>
+              <p>Pameran dagang, manajemen venue &amp; konstruksi booth.</p>
+              <div class="svc-foot" aria-hidden="true"><span>Interactive Map Expo</span><span>&rarr;</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: promo linking to the E-Katalog service page -->
+    <section class="promo" aria-labelledby="promo-title">
+      <div class="container">
+        <div class="promo-card">
+          <div style="position:relative;z-index:1">
+            <span class="kicker">Layanan Baru / Pengadaan Pemerintah</span>
+            <h2 id="promo-title">Mau Ikut Pengadaan Pemerintah?</h2>
+            <p>Serahkan pengerjaan <strong>E-Katalog INAPROC</strong> kepada tim kami &mdash; cepat dan transparan. Mulai dari akun V6, migrasi produk, hingga penayangan produk.</p>
+          </div>
+          <div class="promo-actions">
+            <a class="btn btn-orange btn-lg" href="#pengadaan">
+              <span>Lihat Layanan</span>
+              <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg>
+            </a>
+            <a class="btn btn-wa-solid btn-lg" href="https://wa.me/6285705852676" target="_blank" rel="noopener noreferrer">
+              <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+              <span>Chat WhatsApp<span class="sr-only"> (membuka tab baru)</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================================================================== -->
+  <!-- PAGE: KATALOG                                                       -->
+  <!-- ================================================================== -->
+  <div class="page page-bg" id="page-katalog" data-title="Katalog Event &amp; Pelatihan Nasional | IKNPro" hidden>
+    <section class="catalog" id="katalog-section" aria-labelledby="katalog-title">
+      <!-- decorative background: warm-to-slate gradient, dot grid and brand-mark shapes -->
+      <div class="cat-deco" aria-hidden="true">
+        <svg viewBox="0 0 640 560" preserveAspectRatio="xMaxYMin meet" focusable="false">
+          <defs>
+            <linearGradient id="catPillar" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#14223D" stop-opacity=".16"/>
+              <stop offset="1" stop-color="#14223D" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="catAccent" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#FF6F00" stop-opacity=".34"/>
+              <stop offset="1" stop-color="#FF9A3C" stop-opacity=".12"/>
+            </linearGradient>
+          </defs>
+          <g fill="none" stroke="#14223D" stroke-opacity=".12" stroke-width="1.2">
+            <path d="M40 0 L330 360"/><path d="M110 0 L450 420"/><path d="M250 90 L640 40"/>
+            <path d="M330 470 L640 360"/><path d="M170 560 L440 40"/>
+          </g>
+          <polygon points="250,230 340,186 340,520 250,520" fill="url(#catPillar)"/>
+          <polygon points="372,168 480,118 480,520 372,520" fill="url(#catPillar)"/>
+          <polygon points="372,96 480,48 480,106 372,156" fill="url(#catAccent)"/>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="catalog-head">
+          <div class="chip-orange"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-sparkles"/></svg><span>Agenda Resmi 2024 - 2025</span></div>
+          <h1 id="katalog-title" tabindex="-1">Katalog Event &amp; Pelatihan Nasional</h1>
+          <p>Jadwal pelaksanaan Bimbingan Teknis, Simposium Nasional, Pelatihan PBJ LKPP, dan Pameran Ekshibisi komprehensif.</p>
+        </div>
+
+        <div class="filter-bar">
+          <div class="tabs" id="cat-tabs" role="group" aria-label="Filter kategori event"></div>
+          <div class="search-box" role="search">
+            <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+            <label for="cat-search" class="sr-only">Cari event</label>
+            <input type="search" id="cat-search" placeholder="Cari topik, kota, atau instansi..." autocomplete="off" />
+            <button type="button" class="search-clear" id="cat-search-clear" aria-label="Hapus pencarian" hidden>&#10005;</button>
+          </div>
+        </div>
+
+        <p class="result-count" id="cat-count" role="status" aria-live="polite"></p>
+        <ul class="card-grid cols-3" id="cat-grid"></ul>
+
+        <div class="empty-state" id="cat-empty" hidden>
+          <svg class="icon i-32" style="color:var(--slate-400)" aria-hidden="true" focusable="false"><use href="#i-filter"/></svg>
+          <h2>Tidak Ada Event yang Sesuai</h2>
+          <p>Silakan coba kata kunci lain atau pilih kategori tab yang berbeda.</p>
+          <button type="button" class="link-btn" id="cat-reset">Reset Semua Filter</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================================================================== -->
+  <!-- PAGE: PENGADAAN E-KATALOG (NEW, from promotional flyer)             -->
+  <!-- ================================================================== -->
+  <div class="page" id="page-pengadaan" data-title="Pengadaan E-Katalog INAPROC | IKNPro" hidden>
+    <section class="proc" aria-labelledby="proc-title">
+      <!-- decorative: faint golden triangle/line accent in the far right corner -->
+      <div class="proc-deco" aria-hidden="true">
+        <svg viewBox="0 0 520 520" focusable="false">
+          <g fill="none" stroke="#E3A33B" stroke-opacity=".34" stroke-width="1.1" stroke-linejoin="round">
+            <path d="M520 8 L402 46 L470 128 L520 8"/>
+            <path d="M402 46 L300 112 L470 128 L402 46"/>
+            <path d="M300 112 L420 214 L470 128"/>
+            <path d="M470 128 L520 196 L420 214"/>
+            <path d="M300 112 L214 190 L420 214"/>
+            <path d="M420 214 L336 300 L520 292 L420 214"/>
+            <path d="M214 190 L336 300"/>
+            <path d="M520 196 L520 292"/>
+            <path d="M336 300 L468 400 L520 292"/>
+          </g>
+          <g fill="#E3A33B" fill-opacity=".5">
+            <circle cx="402" cy="46" r="2.4"/><circle cx="470" cy="128" r="2.4"/><circle cx="300" cy="112" r="2.4"/>
+            <circle cx="420" cy="214" r="2.4"/><circle cx="214" cy="190" r="2.4"/><circle cx="336" cy="300" r="2.4"/><circle cx="520" cy="196" r="2.4"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="proc-grid">
+          <div class="proc-copy">
+            <span class="proc-badge"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-zap"/></svg>Pendampingan Resmi E-Katalog V6</span>
+            <h1 id="proc-title" tabindex="-1">Mau Ikut Pengadaan Pemerintah?</h1>
+            <p class="proc-slogan">E-Katalog INAPROC Jadi Mudah: Proses Cepat, Hasil Tepat!</p>
+            <p class="proc-sub">Serahkan pengurusannya kepada tim ahli kami. Siap sikat kendala teknis, patuh regulasi, siap transaksi.</p>
+            <div class="proc-cta">
+              <a class="btn btn-emerald btn-lg" href="https://wa.me/6285705852676" target="_blank" rel="noopener noreferrer">
+                <span>Chat Sdri. Devi via WhatsApp<span class="sr-only"> (membuka tab baru)</span></span>
+                <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg>
+              </a>
+              <a class="proc-contact" href="tel:+6285705852676">
+                <span class="online-dot" aria-hidden="true"></span>
+                <span class="sr-only">Telepon atau WhatsApp: </span>+62 857-0585-2676
+              </a>
+            </div>
+          </div>
+
+          <section class="proc-card" aria-labelledby="proc-svc-title">
+            <span class="proc-card-badge"><svg class="icon i-14 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg>Paket All-in-One</span>
+            <h2 id="proc-svc-title">Layanan yang Kami Kerjakan</h2>
+            <ol class="proc-list">
+              <li><span class="num" aria-hidden="true">1</span><span>Buat Akun V6</span></li>
+              <li><span class="num" aria-hidden="true">2</span><span>Pemindahan V5&nbsp;ke&nbsp;V6</span></li>
+              <li><span class="num" aria-hidden="true">3</span><span>Migrasi Produk</span></li>
+              <li><span class="num" aria-hidden="true">4</span><span>Pemilihan Etalase</span></li>
+              <li><span class="num" aria-hidden="true">5</span><span>Penayangan Produk</span></li>
+              <li><span class="num" aria-hidden="true">6</span><span>Pengadaan <span style="white-space:nowrap">Non-Tender</span></span></li>
+            </ol>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================================================================== -->
+  <!-- PAGE: VERIFIKASI                                                    -->
+  <!-- ================================================================== -->
+  <div class="page page-bg" id="page-verifikasi" data-title="Verifikasi Sertifikat | IKNPro" hidden>
+    <section class="vhero" aria-labelledby="verify-title">
+      <div class="vhero-deco" aria-hidden="true">
+        <svg viewBox="0 0 600 600" focusable="false"><g fill="none" stroke="#0F172A" stroke-opacity=".09" stroke-width=".8"><g transform="translate(300 300)"><ellipse rx="210" ry="62" transform="rotate(0)"/><ellipse rx="210" ry="62" transform="rotate(10)"/><ellipse rx="210" ry="62" transform="rotate(20)"/><ellipse rx="210" ry="62" transform="rotate(30)"/><ellipse rx="210" ry="62" transform="rotate(40)"/><ellipse rx="210" ry="62" transform="rotate(50)"/><ellipse rx="210" ry="62" transform="rotate(60)"/><ellipse rx="210" ry="62" transform="rotate(70)"/><ellipse rx="210" ry="62" transform="rotate(80)"/><ellipse rx="210" ry="62" transform="rotate(90)"/><ellipse rx="210" ry="62" transform="rotate(100)"/><ellipse rx="210" ry="62" transform="rotate(110)"/><ellipse rx="210" ry="62" transform="rotate(120)"/><ellipse rx="210" ry="62" transform="rotate(130)"/><ellipse rx="210" ry="62" transform="rotate(140)"/><ellipse rx="210" ry="62" transform="rotate(150)"/><ellipse rx="210" ry="62" transform="rotate(160)"/><ellipse rx="210" ry="62" transform="rotate(170)"/><circle r="38"/><circle r="74"/><circle r="110"/><circle r="146"/><circle r="182"/><circle r="214"/></g></g></svg>
+      </div>
+
+      <div class="container">
+        <div class="vhero-grid">
+          <div class="vhero-copy">
+            <span class="vbadge"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Sistem Validasi SHA-256 Nasional</span>
+            <h1 id="verify-title" tabindex="-1">Cek Keaslian Sertifikat &amp; Jam Pelajaran (JP)</h1>
+            <p class="vsub">Gunakan ID Sertifikat untuk memvalidasi nomor registrasi resmi, SKKNI, dan mengunduh berkas materi diklat alumni IKNPro.</p>
+
+            <form class="vform" id="verify-form" novalidate>
+              <div class="vbar">
+                <div class="vfield">
+                  <svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+                  <label for="cert-id" class="sr-only">ID Sertifikat</label>
+                  <input type="text" id="cert-id" placeholder="Contoh: IKN-BMT-2024-0891" autocomplete="off" spellcheck="false" />
+                </div>
+                <button type="submit" class="btn btn-verify"><span>Verifikasi</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></button>
+              </div>
+              <svg class="vconnector" viewBox="0 0 150 130" aria-hidden="true" focusable="false">
+                <path d="M0 106 H66 Q80 106 80 92 V34 Q80 20 94 20 H138" fill="none" stroke="#0F172A" stroke-opacity=".38" stroke-width="1.6" stroke-dasharray="2 6" stroke-linecap="round"/>
+                <path d="M130 13 L142 20 L130 27" fill="none" stroke="#0F172A" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </form>
+
+            <div class="samples">
+              <span>Coba ID Sampel:</span>
+              <button type="button" class="sample-chip mono" data-sample="IKN-BMT-2024-0891">IKN-BMT-2024-0891</button>
+              <button type="button" class="sample-chip mono" data-sample="IKN-SMN-2024-1142">IKN-SMN-2024-1142</button>
+              <button type="button" class="sample-chip mono" data-sample="IKN-BMT-2025-0102">IKN-BMT-2025-0102</button>
+            </div>
+
+            <div class="verify-result" id="verify-result" aria-live="polite"></div>
+          </div>
+
+          <!-- 3D-tilted paper certificate showcase (decorative preview) -->
+          <div class="cert-showcase" role="img" aria-label="Pratinjau sertifikat kertas IKNPro dengan penanda terverifikasi resmi, SHA256 dan QR Code, bobot 32 JP setara SKKNI">
+            <div class="cert-paper">
+              <svg viewBox="0 0 600 424" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                <defs>
+                  <linearGradient id="pp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf4e1"/><stop offset=".6" stop-color="#f3e8cc"/><stop offset="1" stop-color="#e9dcbb"/></linearGradient>
+                  <filter id="pgrain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4"/><feColorMatrix type="matrix" values="0 0 0 0 .42  0 0 0 0 .34  0 0 0 0 .2  0 0 0 .16 0"/></filter>
+                  <pattern id="pwave" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M0 7 Q3.5 0 7 7 T14 7" fill="none" stroke="#2c3a5a" stroke-width=".9"/><path d="M0 11 Q3.5 4 7 11 T14 11" fill="none" stroke="#2c3a5a" stroke-width=".6" opacity=".7"/></pattern>
+                </defs>
+                <rect width="600" height="424" rx="6" fill="url(#pp)"/>
+                <rect width="600" height="424" rx="6" filter="url(#pgrain)"/>
+                <path fill-rule="evenodd" fill="url(#pwave)" d="M12 12H588V412H12Z M34 34V390H566V34Z"/>
+                <rect x="12" y="12" width="576" height="400" fill="none" stroke="#2c3a5a" stroke-width="1.4"/>
+                <rect x="34" y="34" width="532" height="356" fill="none" stroke="#2c3a5a" stroke-width="1.2"/>
+                <rect x="40" y="40" width="520" height="344" fill="none" stroke="#b98a2e" stroke-width=".8"/>
+                <svg x="222" y="54" width="156" height="58" viewBox="250 425 730 270"><image href="assets/Blue_and_Silver_Modern_Tech_Expo_LinkedIn_Post__4__7d617923.png" width="1200" height="1200" style="mix-blend-mode:multiply"/></svg>
+                <text x="300" y="152" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="26" fill="#1a2238">Paper Certificate Preview</text>
+                <text x="300" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="12" fill="#5b6070">Diberikan kepada</text>
+                <text x="300" y="216" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="600" font-size="24" fill="#1a2238">Drs. H. Ahmad Fauzi, M.Si &#8212; BPKAD</text>
+                <path d="M110 230 H490" stroke="#8a7a52" stroke-width=".8"/>
+                <g fill="#6b7186" fill-opacity=".38"><rect x="120" y="250" width="360" height="4" rx="2"/><rect x="150" y="264" width="300" height="4" rx="2"/><rect x="190" y="278" width="220" height="4" rx="2"/></g>
+                <g fill="none" stroke="#1f2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M84 344 c10-30 24-36 30-14 s8 24 24-4 s18-10 32 4 s14-14 24-10"/>
+                  <path d="M418 346 c8-26 22-34 30-12 s10 20 22-6 s18-8 28 6 s16-10 24-8"/>
+                </g>
+                <path d="M76 360 H206 M404 360 H524" stroke="#8a7a52" stroke-width=".8"/>
+                <text x="141" y="374" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="10" fill="#5b6070">Signature</text>
+                <text x="464" y="374" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="9.5" fill="#5b6070">Direktur Eksekutif Pelatihan IKNPro</text>
+                <g transform="rotate(-10 300 332)" style="mix-blend-mode:multiply">
+                  <circle cx="300" cy="332" r="38" fill="none" stroke="#2f7d4f" stroke-width="2.6" stroke-opacity=".8"/>
+                  <circle cx="300" cy="332" r="31" fill="none" stroke="#2f7d4f" stroke-width="1" stroke-dasharray="2 3" stroke-opacity=".8"/>
+                  <text x="300" y="336" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="10.5" letter-spacing="1.4" fill="#2f7d4f" fill-opacity=".9">AUTHENTIC</text>
+                </g>
+              </svg>
+            </div>
+            <span class="ov ov-verified"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Terverifikasi Resmi</span>
+            <span class="ov ov-hash"><span class="qr-tile"><svg class="icon i-24" aria-hidden="true" focusable="false"><use href="#i-qr"/></svg></span><span><b>SHA256</b><small>6861913a0... &amp; QR Code</small></span></span>
+            <span class="ov ov-weight">Bobot: 32 JP Setara SKKNI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="jp" aria-labelledby="jp-title">
+      <div class="container">
+        <div class="jp-head">
+          <span class="eyebrow">Pedoman Akreditasi Diklat</span>
+          <h2 id="jp-title">Matriks Standar Jam Pelajaran (JP) &amp; Pengakuan Kompetensi</h2>
+          <p>Acuan konversi bobot Jam Pelajaran (JP) pada sertifikat IKNPro sesuai ketentuan Lembaga Administrasi Negara (LAN) dan SKKNI.</p>
+        </div>
+
+        <div class="jp-bento">
+          <article class="jp-card">
+            <div class="jp-top"><span class="code-chip">SMN - 16JP</span><span class="jp-mark" aria-hidden="true">16 JP</span><span class="sr-only">16 Jam Pelajaran (JP)</span></div>
+            <div class="jp-bar" aria-hidden="true"><i class="on gold"></i><i></i><i></i><i></i></div>
+            <h3>Simposium &amp; Konferensi Nasional Eksekutif</h3>
+            <p>Sertifikat kepesertaan terverifikasi SHA256 dengan rekaman materi dan makalah kebijakan resmi.</p>
+            <footer><span>Durasi: 2 Hari Pleno &amp; Diskusi Panel</span><span class="proof"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>SHA256 Ready</span></footer>
+          </article>
+          <article class="jp-card">
+            <div class="jp-top"><span class="code-chip">SKKNI - 24JP</span><span class="jp-mark" aria-hidden="true">24 JP</span><span class="sr-only">24 Jam Pelajaran (JP)</span></div>
+            <div class="jp-bar" aria-hidden="true"><i class="on"></i><i class="on gold"></i><i></i><i></i></div>
+            <h3>Bimbingan Teknis Reguler / Akselerasi Regulasi</h3>
+            <p>Memenuhi syarat pengembangan kompetensi ASN minimal 20 JP/tahun (UU ASN &amp; Peraturan LAN).</p>
+            <footer><span>Durasi: 3 Hari Efektif</span><span class="proof"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>SHA256 Ready</span></footer>
+          </article>
+          <article class="jp-card">
+            <div class="jp-top"><span class="code-chip">SKKNI - 32JP</span><span class="jp-mark" aria-hidden="true">32 JP</span><span class="sr-only">32 Jam Pelajaran (JP)</span></div>
+            <div class="jp-bar" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on gold"></i><i></i></div>
+            <h3>Bimbingan Teknis Standar Nasional (SIPD-RI / PBJ / Aset)</h3>
+            <p>Diakui oleh BPKAD, Kemendagri, &amp; BKN untuk portofolio kinerja dan angka kredit jabatan fungsional.</p>
+            <footer><span>Durasi: 4 Hari Efektif</span><span class="proof"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>SHA256 Ready</span></footer>
+          </article>
+          <article class="jp-card">
+            <div class="jp-top"><span class="code-chip">BNSP - 40JP</span><span class="jp-mark" aria-hidden="true">40 JP</span><span class="sr-only">40 Jam Pelajaran (JP)</span></div>
+            <div class="jp-bar" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on gold"></i></div>
+            <h3>Diklat Sertifikasi Kompetensi Teknis &amp; PPK</h3>
+            <p>Terintegrasi dengan Lembaga Sertifikasi Profesi (LSP) berlisensi BNSP dan pedoman LKPP.</p>
+            <footer><span>Durasi: 5 Hari Efektif + Asesmen</span><span class="proof"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>SHA256 Ready</span></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================================================================== -->
+  <!-- PAGE: PORTFOLIO                                                     -->
+  <!-- ================================================================== -->
+  <div class="page page-bg" id="page-portfolio" data-title="Portfolio & Klien | IKNPro" hidden>
+    <section class="clients" aria-labelledby="clients-title">
+      <div class="container">
+        <div class="center-head">
+          <span class="eyebrow">Jejaring &amp; Rekam Jejak Institusi</span>
+          <h1 id="clients-title" tabindex="-1">Dipercaya oleh Kementerian, BUMN, &amp; Pemerintah Daerah</h1>
+          <p>Pengalaman mendalam dalam penyelenggaraan Diklat ASN ber-SKKNI, Pengadaan B2G LPSE LKPP, serta Expo bertaraf nasional.</p>
+        </div>
+
+        <ul class="logo-grid" id="logo-grid" aria-label="Daftar klien"></ul>
+
+        <div class="quote-grid">
+          <figure class="quote">
+            <div>
+              <div class="stars" role="img" aria-label="Peringkat 5 dari 5 bintang"><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></div>
+              <blockquote>&ldquo;Penyelenggaraan BIMTEK SIPD-RI oleh IKNPro sangat tertib administrasi, KAK sesuai PMK Kemenkeu, dan materi narasumber sangat aplikatif untuk kami di daerah.&rdquo;</blockquote>
+            </div>
+            <figcaption><span class="avatar-i" style="background:var(--navy)" aria-hidden="true">BP</span><span><b>Kepala Bidang Anggaran</b><small>BPKAD Pemerintah Kabupaten di Jawa Barat</small></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <div>
+              <div class="stars" role="img" aria-label="Peringkat 5 dari 5 bintang"><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></div>
+              <blockquote>&ldquo;Manajemen stan pameran dan venue di Expo Smart Governance sangat rapi. Konstruksi booth cepat, kelistrikan andal, dan koordinasi VIP lancar tanpa hambatan.&rdquo;</blockquote>
+            </div>
+            <figcaption><span class="avatar-i" style="background:#c24e00" aria-hidden="true">TP</span><span><b>VP Corporate Communications</b><small>BUMN Klaster Telekomunikasi &amp; Teknologi</small></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <div>
+              <div class="stars" role="img" aria-label="Peringkat 5 dari 5 bintang"><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="icon i-16 icon-fill" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></div>
+              <blockquote>&ldquo;Kredensial SIKaP LKPP dan NPWP/PKP IKNPro valid tanpa keraguan saat diverifikasi tim audit internal kami. Sangat memudahkan Pejabat Pembuat Komitmen.&rdquo;</blockquote>
+            </div>
+            <figcaption><span class="avatar-i" style="background:#047857" aria-hidden="true">PP</span><span><b>Pejabat Pembuat Komitmen (PPK)</b><small>Satuan Kerja Kementerian Koordinator</small></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases" aria-labelledby="cases-title">
+      <div class="container">
+        <div class="cases-head">
+          <div>
+            <span class="eyebrow">Laporan Pelaksanaan Terukur</span>
+            <h2 id="cases-title">Studi Kasus &amp; Hasil Audit Penyelenggaraan</h2>
+          </div>
+          <div class="pill-filters" id="case-filters" role="group" aria-label="Filter sektor">
+            <button type="button" class="tab" data-sector="Semua" aria-pressed="true">Semua</button>
+            <button type="button" class="tab" data-sector="Kementerian" aria-pressed="false">Kementerian</button>
+            <button type="button" class="tab" data-sector="BUMN" aria-pressed="false">BUMN</button>
+            <button type="button" class="tab" data-sector="Pemerintah Daerah" aria-pressed="false">Pemerintah Daerah</button>
+          </div>
+        </div>
+
+        <div class="case-grid">
+          <article class="case" data-sector="Kementerian">
+            <div>
+              <header><span class="sector">Kementerian &bull; 2024</span><span class="score"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>98,6% Indeks Kepuasan</span></header>
+              <h3>Rapat Koordinasi Nasional &amp; BIMTEK Implementasi SPBE Terpadu</h3>
+              <p class="client">Mitra: Kementerian Dalam Negeri &amp; Kementerian Keuangan RI</p>
+              <div class="case-facts"><span><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg>Jakarta Convention Center (JCC) Senayan</span><span><svg class="icon i-14" style="color:var(--orange-text)" aria-hidden="true" focusable="false"><use href="#i-users"/></svg><b>640 Delegasi</b></span></div>
+            </div>
+            <footer><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-bar-chart"/></svg>Lulus Audit Itjen &amp; BPK Tanpa Catatan (Zero Finding)</footer>
+          </article>
+          <article class="case" data-sector="BUMN">
+            <div>
+              <header><span class="sector">BUMN &bull; 2024</span><span class="score"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>99,1% Indeks Kepuasan</span></header>
+              <h3>Executive Summit &amp; Expo Transformasi Pengadaan Hijau (ESG Procurement)</h3>
+              <p class="client">Mitra: Konsorsium BUMN Klaster Energi, Pelabuhan &amp; Telekomunikasi</p>
+              <div class="case-facts"><span><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg>The Ritz-Carlton Mega Kuningan, Jakarta</span><span><svg class="icon i-14" style="color:var(--orange-text)" aria-hidden="true" focusable="false"><use href="#i-users"/></svg><b>480 Delegasi</b></span></div>
+            </div>
+            <footer><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-bar-chart"/></svg>38 Konstruksi Booth Custom Selesai H-1 Tepat Waktu</footer>
+          </article>
+          <article class="case" data-sector="Pemerintah Daerah">
+            <div>
+              <header><span class="sector">Pemerintah Daerah &bull; 2024</span><span class="score"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>97,9% Indeks Kepuasan</span></header>
+              <h3>Bimbingan Teknis Pengelolaan Keuangan &amp; Aset Daerah Berbasis SIPD-RI</h3>
+              <p class="client">Mitra: BPKAD Provinsi Jawa Barat &amp; Kalimantan Timur</p>
+              <div class="case-facts"><span><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg>Grand Jatra Balikpapan &amp; Bandung</span><span><svg class="icon i-14" style="color:var(--orange-text)" aria-hidden="true" focusable="false"><use href="#i-users"/></svg><b>320 Delegasi</b></span></div>
+            </div>
+            <footer><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-bar-chart"/></svg>100% Sertifikat 36 JP Terbit &amp; Tervalidasi SKKNI</footer>
+          </article>
+          <article class="case" data-sector="Kementerian">
+            <div>
+              <header><span class="sector">Kementerian &bull; 2023</span><span class="score"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>98,4% Indeks Kepuasan</span></header>
+              <h3>Pelatihan &amp; Sertifikasi Pejabat Pembuat Komitmen (PPK) Tipe B &amp; C</h3>
+              <p class="client">Mitra: Satuan Kerja Kementerian PUPR &amp; Otorita IKN</p>
+              <div class="case-facts"><span><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg>Yogyakarta &amp; Sepaku KIPP Nusantara</span><span><svg class="icon i-14" style="color:var(--orange-text)" aria-hidden="true" focusable="false"><use href="#i-users"/></svg><b>290 Delegasi</b></span></div>
+            </div>
+            <footer><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-bar-chart"/></svg>Kelulusan Ujian Kompetensi BNSP Mencapai 96,5%</footer>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================================================================== -->
+  <!-- PAGE: LEGALITAS                                                     -->
+  <!-- ================================================================== -->
+  <div class="page page-bg" id="page-legalitas" data-title="Legalitas &amp; Profil Perusahaan | IKNPro" hidden>
+    <section class="gov" aria-labelledby="gov-title">
+      <div class="container">
+        <div class="gov-head">
+          <span class="eyebrow">Tata Kelola &amp; Kepatuhan Pengadaan B2G</span>
+          <h1 id="gov-title" tabindex="-1">Standar Administrasi &amp; Akuntabilitas SPJ</h1>
+          <p>Setiap kegiatan yang diselenggarakan oleh PT IndoPro Karya Nusantara dirancang untuk memenuhi standar pertanggungjawaban keuangan negara (SPJ) yang ketat, mulai dari kesesuaian satuan biaya (SBM PMK), kurikulum berbasis SKKNI, hingga kelengkapan e-Faktur dan e-Katalog/SIKaP LKPP.</p>
+        </div>
+        <div class="four-grid">
+          <article class="check-card"><h3><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>KBLI 82301 &amp; 82302 Resmi</span></h3><p>Izin operasional Penyelenggara Konvensi, Pameran Dagang, dan Pelatihan Teknis terverifikasi OSS-RBA.</p></article>
+          <article class="check-card"><h3><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Kepatuhan Pajak PKP &amp; e-Faktur</span></h3><p>Pemungutan dan pelaporan PPN/PPh transparan sesuai ketentuan Direktorat Jenderal Pajak RI.</p></article>
+          <article class="check-card"><h3><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>ISO 9001:2015 Mutu Layanan</span></h3><p>Standar manajemen mutu pelayanan delegasi, akomodasi hotel, serta penerbitan sertifikat tepat waktu.</p></article>
+          <article class="check-card"><h3><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Dokumen SPJ Lengkap H+1</span></h3><p>Berita acara, daftar hadir, dokumentasi kegiatan, kuitansi bermeterai, dan laporan narasumber.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vault" id="legal" aria-labelledby="vault-title">
+      <div class="container">
+        <div class="vault-box">
+          <div class="vault-head">
+            <div>
+              <span class="eyebrow">Audit-Ready Compliance Vault</span>
+              <h2 id="vault-title">Dokumen &amp; Legalitas</h2>
+              <p>Kredensial resmi terverifikasi untuk kepatuhan pengadaan pemerintah (B2G), kementerian, lembaga, dan korporasi BUMN/BUMD.</p>
+            </div>
+            <button type="button" class="btn btn-navy btn-navy-2" data-open="legal">
+              <svg class="icon i-16 text-orange" aria-hidden="true" focusable="false"><use href="#i-file-text"/></svg>
+              <span>Rincian &amp; Unduh Dokumen Legal (PDF)</span>
+              <span class="pdf-chip" aria-hidden="true"><span>PDF</span><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-download"/></svg></span>
+            </button>
+          </div>
+          <div class="legal-cards" id="legal-cards"></div>
+          <div class="banner-note">
+            <svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>
+            <p>PT IndoPro Karya Nusantara terdaftar resmi di <strong>SIKaP LKPP</strong> dan memenuhi seluruh standar pemeriksaan audit BPK / Inspektorat Jenderal Kementerian.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/Gemini_Generated_Image_1o6ts61o6ts61o6t_39a83645.jpeg" alt="iKNPro - IndoPro Karya Nusantara" width="176" height="176" loading="lazy" />
+        </div>
+        <p class="about">Penyelenggara MICE &amp; Lembaga Pelatihan Terakreditasi Nasional. Mitra strategis kementerian, lembaga, BUMN, dan pemerintah daerah se-Indonesia.</p>
+        <span class="verified-pill" style="font-size:.6875rem;padding:.125rem .625rem">
+          <svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>
+          SK Kemenkumham AHU-0019284.AH.01.01
+        </span>
+      </div>
+      <div>
+        <h2>Lokasi Kantor Operasional</h2>
+        <address>
+          <div class="f-row"><svg class="icon i-16 text-orange" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg><div><b>Alamat Kantor:</b>Jalan Nipa-Nipa Raya Nomor 135, Kelurahan Manggala, Kec. Manggala, Kota Makassar, Provinsi Sulawesi Selatan, Kode Pos 90234</div></div>
+        </address>
+      </div>
+      <div>
+        <h2>Saluran Sekretariat</h2>
+        <ul>
+          <li class="f-row" style="align-items:center"><svg class="icon i-14 text-orange" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg><a href="tel:+6285705852676">(+62) 857-0585-2676</a></li>
+          <li class="f-row" style="align-items:center"><svg class="icon i-14 text-orange" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg><a href="mailto:indoprokaryanusantara@gmail.com">indoprokaryanusantara@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> PT IndoPro Karya Nusantara (IKNPro). Hak Cipta Dilindungi Undang-Undang.</p>
+      <div>Standar PMK Kemenkeu &nbsp;&bull;&nbsp; Standar SKKNI &amp; BNSP</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ================================================================== -->
+<!-- MODALS (native <dialog>: focus trap, Esc to close, focus restore)   -->
+<!-- ================================================================== -->
+
+<!-- 1. ToR generator -->
+<dialog class="modal" id="dlg-tor" aria-labelledby="tor-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-file-text"/></svg></span>
+      <div><span class="modal-kicker">1-Click Document Generator</span><h2 id="tor-title">Generator Kerangka Acuan Kerja (KAK / TOR)</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="box">
+      <div class="form-grid two">
+        <div class="field"><label for="tor-topic">Pilih Topik BIMTEK / Pelatihan:</label><select id="tor-topic"></select></div>
+        <div class="field"><label for="tor-instansi">Nama Instansi / Dinas:</label><input type="text" id="tor-instansi" value="Pemerintah Kabupaten / Kota / Dinas" placeholder="Contoh: BPKAD Prov. Jawa Barat" /></div>
+        <div class="field"><label for="tor-location">Lokasi Pelaksanaan:</label>
+          <select id="tor-location">
+            <option value="Jakarta Pusat">Jakarta Pusat (Four Points Thamrin)</option>
+            <option value="Balikpapan &amp; Sepaku IKN">Balikpapan &amp; Sepaku IKN</option>
+            <option value="Bandung">Bandung (Hotel Savoy Homann)</option>
+            <option value="Yogyakarta">Yogyakarta (The Phoenix Hotel)</option>
+            <option value="Denpasar Bali">Denpasar Bali</option>
+          </select>
+        </div>
+        <div class="field"><label for="tor-count">Estimasi Jumlah Delegasi:</label><input type="number" id="tor-count" min="1" max="100" value="4" /></div>
+      </div>
+    </div>
+    <div>
+      <div class="preview-head">
+        <b id="tor-preview-label"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-sparkles"/></svg>Preview Dokumen KAK Resmi Siap Pakai:</b>
+        <span class="mono">Format Standar B2G / LPSE</span>
+      </div>
+      <div class="tor-preview" id="tor-preview" tabindex="0" role="region" aria-labelledby="tor-preview-label"></div>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <div class="foot-note">* Dokumen KAK ini memenuhi ketentuan audit BPK &amp; SBM Kemenkeu.</div>
+    <div class="foot-actions">
+      <button type="button" class="btn btn-white" id="tor-copy"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg><span>Salin Teks KAK</span></button>
+      <button type="button" class="btn btn-navy" data-print><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-printer"/></svg><span>Cetak / Simpan PDF</span></button>
+    </div>
+  </div>
+</dialog>
+
+<!-- 2. BIMTEK syllabus -->
+<dialog class="modal" id="dlg-bimtek" aria-labelledby="bimtek-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico blue"><svg class="icon i-24" aria-hidden="true" focusable="false"><use href="#i-graduation-cap"/></svg></span>
+      <div><span class="modal-kicker">Kurikulum &amp; Standar Jam Pelajaran (JP)</span><h2 id="bimtek-title">Layanan Bimbingan Teknis (BIMTEK) Terakreditasi</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div>
+      <span class="field-label" id="jp-pick-label">Pilih Standar Durasi Jam Pelajaran (JP):</span>
+      <div class="choice-grid c3" id="jp-tabs" role="group" aria-labelledby="jp-pick-label">
+        <button type="button" class="seg center" data-jp="24" aria-pressed="false"><b>24 JP</b><small>3 Hari / Pemadatan</small></button>
+        <button type="button" class="seg center" data-jp="32" aria-pressed="true"><b>32 JP</b><small>4 Hari / Standar SPM</small></button>
+        <button type="button" class="seg center" data-jp="40" aria-pressed="false"><b>40 JP</b><small>5 Hari / BNSP</small></button>
+      </div>
+    </div>
+    <div class="box box-lg" id="syllabus" aria-live="polite"></div>
+    <div class="form-grid two">
+      <div class="spec-box"><b>Fasilitas Lengkap Termasuk:</b><ul><li>Akomodasi Twin-Sharing Hotel Bintang 4</li><li>Coffee Break 2x &amp; Makan 3x Sehari</li><li>Modul Pelatihan, Seminar Kit &amp; Tas Diklat</li><li>Sertifikat Fisik Ber-barcode &amp; E-Certificate</li></ul></div>
+      <div class="spec-box"><b>Kepatuhan Administrasi:</b><ul><li>Kuitansi Pembayaran Bermaterai 10.000</li><li>Surat Konfirmasi &amp; Surat Tugas Balasan</li><li>Faktur Pajak Elektronik (e-Faktur PPN/PPh)</li><li>Laporan Akuntabilitas Pelaksanaan Diklat</li></ul></div>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <span class="foot-note" style="font-size:.75rem">Kurikulum disusun sesuai SKKNI &amp; pedoman pengembangan kompetensi ASN.</span>
+    <button type="button" class="btn btn-navy btn-navy-2" data-close>Tutup</button>
+  </div>
+</dialog>
+
+<!-- 3. Seminar speakers -->
+<dialog class="modal" id="dlg-seminar" aria-labelledby="seminar-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico orange-soft"><svg class="icon i-24" aria-hidden="true" focusable="false"><use href="#i-presentation"/></svg></span>
+      <div><span class="modal-kicker">National Symposium &amp; Executive Conference</span><h2 id="seminar-title">Layanan Seminar Nasional &amp; Konferensi Skala Besar</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem;gap:.5rem;flex-wrap:wrap">
+        <h3 class="sub-head" style="margin:0"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-mic"/></svg>Keynote Speaker &amp; Panelis Dewan Pakar</h3>
+        <span class="foot-note" style="font-size:.75rem;font-weight:500">Praktisi &amp; Regulator</span>
+      </div>
+      <div class="choice-grid" id="speakers" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))"></div>
+    </div>
+    <div class="stream">
+      <h3><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-radio"/></svg><span>Spesifikasi Broadcast &amp; Hybrid Streaming</span></h3>
+      <div class="stream-grid">
+        <div><b>1080p 60fps</b><small>Multi-Cam Studio</small></div>
+        <div><b>Dedicated CDN</b><small>10.000+ Viewers</small></div>
+        <div><b>Live Q&amp;A</b><small>Interactive Polling</small></div>
+        <div><b>Cloud VOD</b><small>Akses Rekaman 1 Thn</small></div>
+      </div>
+    </div>
+    <div>
+      <h3 class="sub-head"><svg class="icon i-16 navy" aria-hidden="true" focusable="false"><use href="#i-ticket"/></svg>Paket Registrasi &amp; Fasilitas</h3>
+      <div class="form-grid two">
+        <div class="ticket">
+          <div class="price-row"><span>Delegasi Reguler</span><span>Rp 2.750.000</span></div>
+          <ul>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Akses Seluruh Sesi Pleno &amp; Breakout Room</span></li>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Executive Seminar Kit &amp; Flashdisk Materi</span></li>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Buffet Lunch &amp; 2x Coffee Break Bintang 5</span></li>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>E-Sertifikat 16 JP Terverifikasi</span></li>
+          </ul>
+        </div>
+        <div class="ticket vip">
+          <span class="vip-tag">VIP Pimpinan Instansi</span>
+          <div class="price-row"><span>VIP Executive Pass</span><span>Rp 4.500.000</span></div>
+          <ul>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Kursi Baris Depan Khusus Pimpinan (Reserved)</span></li>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Akses VIP Lounge &amp; Networking Luncheon bersama Menteri</span></li>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Hardcover Executive Policy Brief &amp; Plakat Kayu</span></li>
+            <li><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><span>Penjemputan Bandara VIP Shuttle</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <span class="foot-note" style="font-size:.75rem">Dukungan Proposal Penyelenggaraan In-House Seminar tersedia.</span>
+    <button type="button" class="btn btn-navy btn-navy-2" data-close>Tutup</button>
+  </div>
+</dialog>
+
+<!-- 4. SBM estimator -->
+<dialog class="modal w-4xl" id="dlg-sbm" aria-labelledby="sbm-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico green"><svg class="icon i-24" aria-hidden="true" focusable="false"><use href="#i-calculator"/></svg></span>
+      <div><span class="modal-kicker">Peraturan Menteri Keuangan RI (PMK) Compliance</span><h2 id="sbm-title">Estimator Biaya Delegasi SBM &amp; Checklist Kepatuhan B2G</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="box box-lg">
+      <h3 class="box-title"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-coins"/></svg>Parameter Perjalanan Dinas Delegasi (DPA / DIPA)</h3>
+      <div class="form-grid three">
+        <div class="field"><label for="sbm-province">Provinsi Lokasi Kegiatan:</label><select id="sbm-province"></select></div>
+        <div class="field"><label for="sbm-tier">Tingkat Jabatan ASN / Delegasi:</label>
+          <select id="sbm-tier">
+            <option value="staf">Golongan III / IV / Pejabat Fungsional / Staf</option>
+            <option value="eselon3">Pejabat Administrator (Eselon III)</option>
+            <option value="eselon2">Pejabat Pimpinan Tinggi (Eselon II / I)</option>
+          </select>
+        </div>
+        <div class="field"><label for="sbm-package">Paket Kontribusi Diklat:</label>
+          <select id="sbm-package">
+            <option value="fullboard">Fullboard 4D3N (Hotel Twin + Meals + Kit)</option>
+            <option value="fullday">Fullday (Non-Menginap + Meals + Kit)</option>
+            <option value="non_residential">Non-Residential / Hybrid Interactive</option>
+          </select>
+        </div>
+        <div class="field"><label for="sbm-days">Durasi Pelaksanaan:</label><div class="range-row"><input type="range" id="sbm-days" min="2" max="6" value="4" /><output for="sbm-days" id="sbm-days-out">4 Hari</output></div></div>
+        <div class="field"><label for="sbm-people">Jumlah Peserta:</label><div class="range-row"><input type="range" id="sbm-people" min="1" max="20" value="3" style="accent-color:var(--orange)" /><output for="sbm-people" id="sbm-people-out">3 Orang</output></div></div>
+        <div class="field"><span class="field-label">Transportasi PP:</span><div class="check-row"><input type="checkbox" id="sbm-transport" checked /><label for="sbm-transport" style="font-weight:400;margin:0">Hitung Tiket Transportasi PP</label></div></div>
+      </div>
+    </div>
+
+    <div class="rab">
+      <div class="rab-head">
+        <div><span class="modal-kicker" style="color:var(--orange-text)">Rincian Anggaran Belanja (RAB SBM)</span><h3 id="rab-title">Standar Biaya Masukan PMK - DKI Jakarta</h3></div>
+        <div class="total"><small>Estimasi Total Pagu Anggaran</small><b id="sbm-grand" aria-live="polite">Rp 0</b></div>
+      </div>
+      <div>
+        <div class="line"><span id="l-daily"></span><b id="v-daily"></b></div>
+        <div class="line"><span id="l-train"></span><b id="v-train"></b></div>
+        <div class="line" id="row-hotel"><span id="l-hotel"></span><b id="v-hotel"></b></div>
+        <div class="line" id="row-transport"><span id="l-transport"></span><b id="v-transport"></b></div>
+        <div class="line grand"><span>Biaya Rata-Rata Per Peserta:</span><b id="v-per">Rp 0 / Orang</b></div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="box-title" style="margin-bottom:.75rem"><svg class="icon i-16" style="color:#047857" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg>Checklist Dokumen SPJ Lengkap untuk BPKAD / Inspektorat</h3>
+      <ul class="checklist">
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Surat Undangan Resmi &amp; Kerangka Acuan Kerja (KAK)</li>
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Surat Tugas (ST) &amp; Lembar SPPD Asli Ditandatangani Panitia Penyelenggara</li>
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Kuitansi Resmi Pembayaran Kontribusi Diklat Bermaterai Rp 10.000</li>
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Faktur Pajak Elektronik (e-Faktur PPN 11% / PPh Pasal 23)</li>
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Boarding Pass &amp; Tiket Transportasi PP Terverifikasi</li>
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Sertifikat Kelulusan 32 JP / 40 JP Ber-barcode Valid</li>
+        <li><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Bahan Ajar Lengkap &amp; Laporan Ringkas Pelaksanaan Tugas</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <div class="foot-note">* Rumus perhitungan mengacu pada PMK Standar Biaya Masukan Republik Indonesia.</div>
+    <div class="foot-actions">
+      <button type="button" class="btn btn-white" data-print><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-printer"/></svg><span>Cetak Lembar Estimasi SBM</span></button>
+      <button type="button" class="btn btn-navy btn-navy-2" data-close>Tutup</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- 5. Booth reservation -->
+<dialog class="modal w-2xl" id="dlg-booth" aria-labelledby="booth-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-store"/></svg></span>
+      <div><span class="modal-kicker">Pemesanan Stan Ekshibisi Dagang</span><h2 id="booth-title">Formulir Reservasi Booth Expo</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="success" id="booth-success" hidden>
+      <div class="success-ico"><svg class="icon i-32" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg></div>
+      <h3>Reservasi Stan Berhasil Dikirim!</h3>
+      <p>Terima kasih, <strong id="bs-company"></strong>. Tim Divisi Venue &amp; Commercial Expo IKNPro telah mengamankan blok Stan <strong id="bs-booth"></strong> untuk Anda.</p>
+      <dl class="receipt">
+        <div><dt>Nomor Registrasi:</dt><dd class="mono" id="bs-code"></dd></div>
+        <div><dt>Stan Terpilih:</dt><dd id="bs-stan" style="color:var(--orange-text)"></dd></div>
+        <div><dt>Total Biaya (Termasuk PPN 11%):</dt><dd id="bs-total"></dd></div>
+        <div><dt>Status Sementara:</dt><dd><span class="hold">Holding (24 Jam)</span></dd></div>
+      </dl>
+      <button type="button" class="btn btn-navy" data-close>Selesai &amp; Kembali ke Halaman Utama</button>
+    </div>
+
+    <form class="stack" id="booth-form" novalidate>
+      <div class="box box-lg" style="padding:1rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem">
+          <b style="font-size:.75rem;text-transform:uppercase;letter-spacing:.06em">Interactive Floor Plan (Pilih Stan)</b>
+          <div class="legend"><span><i></i>Available</span><span><i class="b"></i>Booked</span></div>
+        </div>
+        <div style="background:#fff;border:1px solid var(--slate-200);border-radius:12px;padding:.75rem">
+          <div class="stage">&#9650; Panggung Utama &amp; LED Wall &#9650;</div>
+          <div class="floor">
+            <div><div class="zone-label">Side Wall</div><div class="booth-col" id="booths-side"></div></div>
+            <div><div class="zone-label">Central Island (High Footfall)</div><div class="booth-island" id="booths-island"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="selected-booth" aria-live="polite">
+        <div>
+          <div><b class="t" id="sel-title">Stan Terpilih: Stan A1</b><span class="badge">Standard 3m x 3m</span></div>
+          <p id="sel-zone"></p>
+        </div>
+        <div class="r"><small>Sewa Dasar Stan:</small><b id="sel-price"></b></div>
+      </div>
+
+      <div>
+        <span class="field-label" id="watt-label"><svg class="icon i-14" style="color:var(--orange)" aria-hidden="true" focusable="false"><use href="#i-zap"/></svg> Kebutuhan Daya Listrik Tambahan:</span>
+        <div class="choice-grid c3" role="radiogroup" aria-labelledby="watt-label">
+          <label class="choice center"><input type="radio" name="watt" value="440" checked /><span><span class="c-title">2A / 440W</span><span class="c-sub" style="font-size:.625rem">Rp 450.000</span></span></label>
+          <label class="choice center"><input type="radio" name="watt" value="880" /><span><span class="c-title">4A / 880W</span><span class="c-sub" style="font-size:.625rem">Rp 900.000</span></span></label>
+          <label class="choice center"><input type="radio" name="watt" value="1320" /><span><span class="c-title">6A / 1320W</span><span class="c-sub" style="font-size:.625rem">Rp 1.350.000</span></span></label>
+        </div>
+      </div>
+
+      <div class="stack-sm">
+        <div class="field"><label for="b-company">Nama Perusahaan / Lembaga / Brand: *</label><input type="text" id="b-company" required placeholder="Contoh: PT Teknologi Bangun Nusantara" autocomplete="organization" /></div>
+        <div class="form-grid two">
+          <div class="field"><label for="b-pic">Nama PIC / Penanggung Jawab: *</label><input type="text" id="b-pic" required placeholder="Nama lengkap PIC" autocomplete="name" /></div>
+          <div class="field"><label for="b-phone">No. WhatsApp Aktif: *</label><input type="tel" id="b-phone" required placeholder="08xxxxxxxxxx" autocomplete="tel" /></div>
+        </div>
+        <div class="form-grid two">
+          <div class="field"><label for="b-email">Email Resmi Perusahaan:</label><input type="email" id="b-email" placeholder="corporate@perusahaan.co.id" autocomplete="email" /></div>
+          <div class="field"><label for="b-product">Kategori Produk Dipamerkan:</label><input type="text" id="b-product" placeholder="Contoh: Smart City &amp; Software Gov" /></div>
+        </div>
+      </div>
+
+      <div class="quote-box" aria-live="polite">
+        <div class="line" style="border:0;padding:0"><span>Sewa Stan Standard 3x3m (3 Hari):</span><b id="q-booth"></b></div>
+        <div class="line" style="border:0;padding:0"><span id="q-watt-label">Instalasi Daya Listrik (440W):</span><b id="q-elec"></b></div>
+        <div class="line" style="border:0;padding:0"><span>PPN 11%:</span><b id="q-ppn"></b></div>
+        <div class="line total-line"><span>Total Investasi:</span><b id="q-total"></b></div>
+      </div>
+
+      <p class="form-error" id="booth-error" role="alert" hidden>Mohon lengkapi nama perusahaan, nama PIC, dan nomor WhatsApp.</p>
+      <div class="form-actions">
+        <button type="button" class="btn btn-ghost" data-close>Batal</button>
+        <button type="submit" class="btn btn-orange"><span>Konfirmasi Reservasi Stan</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+<!-- 6. Legal audit vault -->
+<dialog class="modal w-4xl" id="dlg-legal" aria-labelledby="legal-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico green"><svg class="icon i-24" aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg></span>
+      <div><span class="modal-kicker">Audit-Ready Compliance Vault</span><h2 id="legal-title">Kredensial Legalitas &amp; Dokumen Kepatuhan B2G / BUMN</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="choice-grid" id="vault-tabs" role="group" aria-label="Pilih dokumen legalitas" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))"></div>
+    <div class="doc-card" id="vault-doc" aria-live="polite"></div>
+    <div class="box" style="background:#fff">
+      <h3 class="box-title" style="margin-bottom:.5rem"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-credit-card"/></svg>Rekening Giro Perusahaan Resmi (Atas Nama PT IndoPro Karya Nusantara)</h3>
+      <div class="form-grid two">
+        <div class="bank"><b>Bank Mandiri KC Rasuna Said:</b><b class="acc mono">124-00-1192840-1</b><small>A.N. PT IndoPro Karya Nusantara</small></div>
+        <div class="bank"><b>Bank BNI KC Dukuh Atas:</b><b class="acc mono">099-2849102-3</b><small>A.N. PT IndoPro Karya Nusantara</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <div class="foot-note">* Dokumen legalitas terjamin keasliannya dan lolos pra-kualifikasi SPSE LKPP.</div>
+    <div class="foot-actions">
+      <button type="button" class="btn btn-ghost" data-close>Tutup</button>
+      <button type="button" class="btn btn-orange" id="legal-download"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-download"/></svg><span id="legal-download-label">Unduh Legal Bundle (PDF / ZIP)</span></button>
+    </div>
+  </div>
+</dialog>
+
+<!-- 7. Company profile -->
+<dialog class="modal" id="dlg-profile" aria-labelledby="profile-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-building"/></svg></span>
+      <div><span class="modal-kicker">Profil Perusahaan Resmi</span><h2 id="profile-title">PT IndoPro Karya Nusantara (IKNPro)</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="box box-lg">
+      <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem">
+        <span class="verified-pill" style="font-size:.6875rem;border:1px solid var(--emerald-200)">Badan Hukum Resmi Terdaftar</span>
+        <span class="mono foot-note" style="font-size:.75rem">SK Kemenkumham AHU-0019284.AH.01.01</span>
+      </div>
+      <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:.5rem">Penyelenggara Event &amp; Bimbingan Teknis Terdepan</h3>
+      <p class="muted" style="font-size:.75rem;line-height:1.7">PT IndoPro Karya Nusantara (IKNPro) adalah badan usaha terdaftar di bawah Kementerian Hukum dan HAM RI, memiliki spesialisasi dalam bidang MICE (Meetings, Incentives, Conferences, Exhibitions), Bimbingan Teknis kedinasan aparatur sipil negara, dan penyelenggaraan ekshibisi komersial nasional.</p>
+    </div>
+    <div class="stat3">
+      <div class="stat"><div class="n">250+</div><b>Event Terselenggara</b><small>Kementerian &amp; BUMN</small></div>
+      <div class="stat"><div class="n" style="color:var(--orange-text)">35.000+</div><b>Alumni Bersertifikat</b><small>Terdaftar di Database</small></div>
+      <div class="stat"><div class="n" style="color:#047857">100%</div><b>Kepatuhan SBM PMK</b><small>Bebas Temuan Auditor</small></div>
+    </div>
+    <div>
+      <h3 class="box-title" style="margin-bottom:.75rem">Bidang Keahlian &amp; Unit Usaha</h3>
+      <div class="cap-grid">
+        <div class="cap"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><div><b>BIMTEK &amp; Sertifikasi BNSP</b><span>Pelatihan aparatur dengan standar 24, 32, dan 40 JP resmi.</span></div></div>
+        <div class="cap"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><div><b>Seminar &amp; Simposium Nasional</b><span>Konferensi tingkat tinggi dengan dukungan hybrid streaming 1080p.</span></div></div>
+        <div class="cap"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><div><b>Commercial Expo &amp; Booth Design</b><span>Konstruksi stan pameran R80, kelistrikan, dan manajemen venue.</span></div></div>
+        <div class="cap"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg><div><b>Pengadaan B2G &amp; Kemitraan LPSE</b><span>Vendor siap kontrak untuk Pengadaan Langsung maupun Tender.</span></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <span class="foot-note" style="font-size:.75rem">Dokumen resmi profil perusahaan PT IndoPro Karya Nusantara.</span>
+    <div class="foot-actions">
+      <button type="button" class="btn btn-ghost" data-close>Tutup</button>
+      <button type="button" class="btn btn-navy" id="profile-download"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-download"/></svg><span id="profile-download-label">Unduh File Profil</span></button>
+    </div>
+  </div>
+</dialog>
+
+<!-- 8. Event registration -->
+<dialog class="modal w-2xl" id="dlg-register" aria-labelledby="register-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-file-text"/></svg></span>
+      <div><span class="modal-kicker">Pendaftaran Delegasi Resmi</span><h2 id="register-title">Formulir Pendaftaran &amp; Konfirmasi SPPD</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="success" id="reg-success" hidden>
+      <div class="success-ico"><svg class="icon i-32" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg></div>
+      <h3>Pendaftaran Berhasil Diterima!</h3>
+      <p>Surat konfirmasi, jadwal pelaksanaan, dan lembar SPPD telah dikirimkan ke email &amp; WhatsApp Anda.</p>
+      <dl class="receipt">
+        <div><dt>Nomor Registrasi:</dt><dd class="mono" id="rs-code"></dd></div>
+        <div><dt>Nama Peserta:</dt><dd id="rs-name"></dd></div>
+        <div><dt>Instansi:</dt><dd id="rs-inst"></dd></div>
+        <div><dt>Event:</dt><dd id="rs-event"></dd></div>
+        <div><dt>Metode Tagihan:</dt><dd id="rs-bill" style="color:var(--orange-text)"></dd></div>
+      </dl>
+      <div class="foot-actions" style="justify-content:center">
+        <button type="button" class="btn btn-white" data-print><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-printer"/></svg><span>Cetak Bukti Pendaftaran</span></button>
+        <button type="button" class="btn btn-navy" data-close>Selesai</button>
+      </div>
+    </div>
+
+    <form class="stack" id="reg-form" novalidate>
+      <div class="event-sum">
+        <span class="k" id="reg-cat"></span>
+        <h3 id="reg-title"></h3>
+        <div><span><svg class="icon i-14" style="color:var(--orange)" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg><span id="reg-date"></span></span><span><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg><span id="reg-venue"></span></span></div>
+      </div>
+
+      <div>
+        <span class="field-label" id="pkg-label">Pilih Paket Kontribusi:</span>
+        <div class="choice-grid c2 stack-xs" role="radiogroup" aria-labelledby="pkg-label">
+          <label class="choice"><input type="radio" name="pkg" value="fullboard" checked /><span><span class="c-title">Paket Menginap (Fullboard)</span><span class="c-price" id="reg-fee"></span><span class="c-sub">Hotel 4 Hari 3 Malam + Konsumsi</span></span></label>
+          <label class="choice"><input type="radio" name="pkg" value="fullday" /><span><span class="c-title">Paket Non-Menginap (Fullday)</span><span class="c-price" style="color:var(--navy)">Rp 3.500.000 / Peserta</span><span class="c-sub">Tanpa Kamar + Makan Siang + Kit</span></span></label>
+        </div>
+      </div>
+
+      <div class="stack-sm">
+        <div class="form-grid two">
+          <div class="field"><label for="r-name">Nama Lengkap &amp; Gelar: *</label><input type="text" id="r-name" required placeholder="Contoh: Drs. Bambang Santoso, M.Si" autocomplete="name" /></div>
+          <div class="field"><label for="r-nip">NIP / NIK (Opsional ASN):</label><input type="text" id="r-nip" placeholder="Contoh: 19820412 200501 1 004" /></div>
+        </div>
+        <div class="form-grid two">
+          <div class="field"><label for="r-inst">Instansi / Satuan Kerja / Perusahaan: *</label><input type="text" id="r-inst" required placeholder="Contoh: BPKAD Kab. Bandung" autocomplete="organization" /></div>
+          <div class="field"><label for="r-job">Jabatan:</label><input type="text" id="r-job" placeholder="Contoh: Kasubag Perencanaan" autocomplete="organization-title" /></div>
+        </div>
+        <div class="form-grid two">
+          <div class="field"><label for="r-phone">Nomor WhatsApp: *</label><input type="tel" id="r-phone" required placeholder="08xxxxxxxxxx" autocomplete="tel" /></div>
+          <div class="field"><label for="r-email">Email Konfirmasi:</label><input type="email" id="r-email" placeholder="peserta@instansi.go.id" autocomplete="email" /></div>
+        </div>
+      </div>
+
+      <div>
+        <span class="field-label" id="bill-label">Metode Administrasi Pembayaran:</span>
+        <div class="choice-grid c2 stack-xs" role="radiogroup" aria-labelledby="bill-label">
+          <label class="choice"><input type="radio" name="billing" value="sppd" checked /><span><span class="c-title">SPPD Kas Daerah / Dinas</span><span class="c-sub">Pembayaran tunai di venue atau transfer H-3</span></span></label>
+          <label class="choice"><input type="radio" name="billing" value="invoice" /><span><span class="c-title">Faktur / Kontrak Perusahaan</span><span class="c-sub">Kirim invoice resmi &amp; e-Faktur PPN</span></span></label>
+        </div>
+      </div>
+
+      <p class="form-error" id="reg-error" role="alert" hidden>Mohon isi nama peserta, instansi, dan nomor WhatsApp.</p>
+      <div class="form-actions">
+        <button type="button" class="btn btn-ghost" data-close>Batal</button>
+        <button type="submit" class="btn btn-navy"><span>Kirim Pendaftaran</span><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+<!-- 9. Certificate detail -->
+<dialog class="modal" id="dlg-cert" aria-labelledby="cert-title">
+  <div class="modal-head compact">
+    <div class="modal-title">
+      <svg class="icon i-20 text-orange" aria-hidden="true" focusable="false"><use href="#i-award"/></svg>
+      <h2 id="cert-title">E-Sertifikat Digital Resmi Terverifikasi</h2>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body certificate-bg" id="cert-body"></div>
+  <div class="modal-foot white">
+    <span class="foot-note mono" id="cert-dbid"></span>
+    <div class="foot-actions">
+      <button type="button" class="btn btn-ghost" data-close>Tutup</button>
+      <button type="button" class="btn btn-navy" data-print><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-printer"/></svg><span>Cetak Sertifikat / Simpan PDF</span></button>
+    </div>
+  </div>
+</dialog>
+
+<!-- 10. Contact -->
+<dialog class="modal w-2xl" id="dlg-contact" aria-labelledby="contact-title">
+  <div class="modal-head">
+    <div class="modal-title">
+      <span class="modal-ico"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-phone-call"/></svg></span>
+      <div><span class="modal-kicker">Sekretariat &amp; Kemitraan</span><h2 id="contact-title">Hubungi PT IndoPro Karya Nusantara</h2></div>
+    </div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup"><svg class="icon i-20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="modal-body">
+    <div class="success" id="contact-success" hidden>
+      <div class="success-ico"><svg class="icon i-32" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg></div>
+      <h3>Pesan Anda Telah Kami Terima!</h3>
+      <p>Terima kasih, <strong id="cs-name"></strong>. Tim representatif IKNPro akan segera menghubungi nomor <strong id="cs-phone"></strong> dalam kurun waktu 1x24 jam kerja.</p>
+      <button type="button" class="btn btn-navy" data-close>Tutup</button>
+    </div>
+
+    <div class="stack" id="contact-main">
+      <div class="contact-strip">
+        <div><span class="i" style="color:var(--orange)"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-phone-call"/></svg></span><span><b>Hotline Konsultasi:</b><a href="tel:+6285705852676">(+62) 857-0585-2676</a></span></div>
+        <div><span class="i"><svg class="icon i-16" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span><span><b>Email Resmi:</b><a href="mailto:indoprokaryanusantara@gmail.com">indoprokaryanusantara@gmail.com</a></span></div>
+      </div>
+      <form class="stack-sm" id="contact-form" novalidate>
+        <div class="form-grid two">
+          <div class="field"><label for="c-name">Nama Lengkap: *</label><input type="text" id="c-name" required placeholder="Nama Anda" autocomplete="name" /></div>
+          <div class="field"><label for="c-phone">Nomor WhatsApp: *</label><input type="tel" id="c-phone" required placeholder="08xxxxxxxxxx" autocomplete="tel" /></div>
+        </div>
+        <div class="form-grid two">
+          <div class="field"><label for="c-inst">Instansi / Perusahaan:</label><input type="text" id="c-inst" placeholder="Contoh: Dinas PUPR / BUMN" autocomplete="organization" /></div>
+          <div class="field"><label for="c-service">Kebutuhan Layanan:</label>
+            <select id="c-service">
+              <option value="BIMTEK Khusus / In-House">In-House BIMTEK &amp; Pelatihan Satker</option>
+              <option value="Seminar &amp; Konferensi Nasional">Seminar / Simposium Nasional</option>
+              <option value="Pameran &amp; Booth Expo">Sewa Booth &amp; Desain Pameran</option>
+              <option value="Pengadaan B2G LKPP">Konsultasi Pengadaan B2G / Kemitraan SIKaP</option>
+              <option value="Pendampingan E-Katalog INAPROC">Pendampingan Pengadaan E-Katalog INAPROC</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="c-msg">Catatan atau Pertanyaan:</label><textarea id="c-msg" rows="3" placeholder="Tuliskan tanggal yang diinginkan, estimasi peserta, atau kebutuhan spesifik..."></textarea></div>
+        <p class="form-error" id="contact-error" role="alert" hidden>Mohon isi nama dan nomor kontak.</p>
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" data-close>Batal</button>
+          <button type="submit" class="btn btn-orange"><svg class="icon i-14" aria-hidden="true" focusable="false"><use href="#i-send"/></svg><span>Kirim Pesan</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
