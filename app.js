@@ -480,7 +480,7 @@
       '<footer>Penerbit: ' + esc(d.issuingAuthority) + '</footer></article>';
   }).join('');
   $('#logo-grid').innerHTML = CLIENT_LOGOS.map(function (c) {
-    return '<li class="logo-tile"><span class="ico">' + icon('building', 20) + '</span><b>' + esc(c[1]) + '</b><small class="line-clamp-1">' + esc(c[0]) + '</small></li>';
+    return '<li class="logo-tile"><span class="ico">' + icon('building', 18) + '</span><b>' + esc(c[1]) + '</b><small class="line-clamp-2">' + esc(c[0]) + '</small></li>';
   }).join('');
 
   var vaultSel = 'nib';
@@ -611,6 +611,143 @@
     contactMain.hidden = true; contactSuccess.hidden = false;
     $('h3', contactSuccess).setAttribute('tabindex', '-1'); $('h3', contactSuccess).focus();
   });
+
+  /* ============================ PORTFOLIO: RIBBON + COVERFLOW ============================ */
+  (function () {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // --- partner ribbon: arrow buttons, keyboard, mouse-drag (touch scrolls natively)
+    var vp = $('#ribbon');
+    if (vp) {
+      var by = function (dir) { vp.scrollBy({ left: dir * Math.max(240, vp.clientWidth * 0.7), behavior: reduce ? 'auto' : 'smooth' }); };
+      $('#ribbon-prev').addEventListener('click', function () { by(-1); });
+      $('#ribbon-next').addEventListener('click', function () { by(1); });
+      vp.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') { e.preventDefault(); by(1); } else if (e.key === 'ArrowLeft') { e.preventDefault(); by(-1); }
+      });
+      var down = false, startX = 0, startLeft = 0;
+      vp.addEventListener('pointerdown', function (e) { if (e.pointerType !== 'mouse') return; down = true; startX = e.clientX; startLeft = vp.scrollLeft; });
+      window.addEventListener('pointermove', function (e) {
+        if (!down) return;
+        var dx = e.clientX - startX;
+        if (Math.abs(dx) > 4) vp.classList.add('dragging');
+        vp.scrollLeft = startLeft - dx;
+      });
+      window.addEventListener('pointerup', function () { down = false; vp.classList.remove('dragging'); });
+    }
+
+    // --- coverflow testimonials: continuous position model (smooth glide, 1:1 cursor drag, momentum, circular)
+    var flow = $('#cflow');
+    if (!flow) return;
+    var cards = $$('.tcard', flow), n = cards.length;
+    var dotsEl = $('#cdots'), countEl = $('#ccount');
+    dotsEl.innerHTML = cards.map(function (_, i) { return '<button type="button" aria-label="Testimoni ' + (i + 1) + ' dari ' + n + '"></button>'; }).join('');
+    var dots = $$('button', dotsEl);
+
+    var pos = 0;        // fractional index currently drawn
+    var target = 0;     // where the glide animation is heading
+    var shown = -1;     // nearest card index (for counter / dots / aria)
+    var raf = 0, lastT = 0;
+    var mod = function (a) { return ((a % n) + n) % n; };
+    var stepPx = function () { return Math.min(440, window.innerWidth * 0.82) * 0.98; }; // card width * .98, same as the CSS --step
+
+    function draw() {
+      var step = stepPx();
+      cards.forEach(function (c, i) {
+        var o = i - pos; o -= n * Math.round(o / n);          // signed offset from centre, wrapped into [-n/2, n/2]
+        var ab = Math.abs(o), t = Math.min(ab, 1);
+        var scale = 1 - 0.14 * t;
+        var opacity = ab <= 1 ? 1 - 0.45 * t : Math.max(0, 0.55 * (1 - (ab - 1) / 0.5)); // fades out before it wraps round to the other side
+        var rot = Math.max(-1.3, Math.min(1.3, o)) * -9;
+        c.style.transform = 'translate(-50%, -50%) translateX(' + (o * step).toFixed(2) + 'px) rotateY(' + rot.toFixed(2) + 'deg) scale(' + scale.toFixed(4) + ')';
+        c.style.opacity = opacity.toFixed(3);
+        c.style.visibility = opacity < 0.02 ? 'hidden' : 'visible';
+        c.style.zIndex = String(10 - Math.round(ab * 3));
+        c.style.setProperty('--a', (1 - t).toFixed(3));
+      });
+      var idx = mod(Math.round(pos));
+      if (idx !== shown) {
+        shown = idx;
+        cards.forEach(function (c, i) {
+          c.classList.toggle('is-active', i === idx); c.classList.toggle('is-side', i !== idx);
+          c.setAttribute('aria-hidden', i === idx ? 'false' : 'true');
+        });
+        dots.forEach(function (d, i) { d.setAttribute('aria-current', String(i === idx)); });
+        countEl.textContent = String(idx + 1).padStart(2, '0') + ' / ' + String(n).padStart(2, '0');
+      }
+    }
+    var vel = 0;        // spring velocity, in cards per second
+    function tick(now) {
+      var dt = Math.min(0.04, (now - lastT) / 1000); lastT = now;
+      var w = 13;       // critically damped spring: eases in smoothly, lands softly, no overshoot, and keeps the momentum of a drag
+      vel += (w * w * (target - pos) - 2 * w * vel) * dt;
+      pos += vel * dt;
+      if (Math.abs(target - pos) < 0.0006 && Math.abs(vel) < 0.02) { pos = target; vel = 0; raf = 0; draw(); return; }
+      draw(); raf = requestAnimationFrame(tick);
+    }
+    function glide() {
+      if (reduce) { pos = target; draw(); return; }
+      if (!raf) { lastT = performance.now(); raf = requestAnimationFrame(tick); }
+    }
+    function goBy(d) { target = Math.round(target) + d; glide(); }
+    function goTo(i) {   // shortest way round the circle
+      var d = mod(i) - mod(Math.round(target));
+      if (d > n / 2) d -= n; else if (d < -n / 2) d += n;
+      target = Math.round(target) + d; glide();
+    }
+    $('#cflow-prev').addEventListener('click', function () { goBy(-1); });
+    $('#cflow-next').addEventListener('click', function () { goBy(1); });
+    dots.forEach(function (d, i) { d.addEventListener('click', function () { goTo(i); }); });
+    flow.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); goBy(1); } else if (e.key === 'ArrowLeft') { e.preventDefault(); goBy(-1); }
+    });
+
+    // --- drag with the cursor / finger: cards follow 1:1, release = momentum + snap
+    var d0 = null;   // { x, pos0, id, v, lastX, lastT, moved }
+    flow.addEventListener('pointerdown', function (e) {
+      if (e.button !== undefined && e.button !== 0) return;
+      if (e.target.closest('button')) return;
+      if (raf) { cancelAnimationFrame(raf); raf = 0; }          // grab a card mid-glide
+      vel = 0; target = pos;
+      d0 = { x: e.clientX, pos0: pos, id: e.pointerId, v: 0, lastX: e.clientX, lastT: performance.now(), moved: false };
+    });
+    flow.addEventListener('pointermove', function (e) {
+      if (!d0 || e.pointerId !== d0.id) return;
+      var dx = e.clientX - d0.x;
+      if (!d0.moved) {
+        if (Math.abs(dx) < 5) return;
+        d0.moved = true; flow.classList.add('dragging');
+        try { flow.setPointerCapture(e.pointerId); } catch (_) { /* ignore */ }
+      }
+      var now = performance.now(), dt = now - d0.lastT;
+      if (dt > 0) d0.v = 0.8 * d0.v + 0.2 * ((e.clientX - d0.lastX) / dt);   // smoothed px/ms
+      d0.lastX = e.clientX; d0.lastT = now;
+      pos = d0.pos0 - dx / stepPx(); target = pos;
+      draw();
+    });
+    function release(e) {
+      if (!d0 || (e && e.pointerId !== d0.id)) return;
+      var s = d0; d0 = null;
+      flow.classList.remove('dragging');
+      try { flow.releasePointerCapture(s.id); } catch (_) { /* ignore */ }
+      if (!s.moved) {            // plain click: bring a faded side card to the centre
+        var side = e && e.target.closest && e.target.closest('.tcard.is-side');
+        if (side) goTo(cards.indexOf(side));
+        return;
+      }
+      var v = (performance.now() - s.lastT > 90) ? 0 : s.v;   // paused before letting go = no momentum
+      var projected = pos - (v * 160) / stepPx();              // where the flick would carry it
+      projected = Math.max(pos - 1.5, Math.min(pos + 1.5, projected));
+      target = Math.round(projected);
+      vel = -(v * 1000) / stepPx();                             // cards/second, so the glide continues the motion of your hand
+      if (target === Math.round(s.pos0) && Math.abs(pos - s.pos0) > 0.12 && Math.abs(v) > 0.25) target += pos > s.pos0 ? 1 : -1; // a quick short flick still turns the page
+      glide();
+    }
+    flow.addEventListener('pointerup', release);
+    flow.addEventListener('pointercancel', release);
+    window.addEventListener('resize', draw);
+    draw();
+  })();
 
   /* ============================ PORTFOLIO FILTER ============================ */
   var caseButtons = $$('#case-filters [data-sector]'), caseCards = $$('.case');
